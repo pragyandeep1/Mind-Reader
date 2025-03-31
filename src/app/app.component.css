@@ -1,11 +1,14 @@
 .main{
     background-color: #f4f4f4;
-    color: #333;
-    padding: 20px;
-    margin: 20px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px #ccc;
-    width: 98vw;
+    background-image: url('/assets/background.png');
+    background-size: cover;
+    background-position: top;
+    /* color: #333; */
+    /* padding: 20px; */
+    /* margin: 20px; */
+    /* border-radius: 10px; */
+    /* box-shadow: 5px 5px 5px #ccc; */
+    /* width: 98vw; */
     height: 100vh;
     display: flex;
     align-items: center;
@@ -13,8 +16,12 @@
 }
 
 .container{
-    background-color: #fff;
-    color: #333;
+    background-color: #fff888;
+    background-image: url('/assets/domino.png');
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    color: #105050;
     padding: 20px;
     margin: 20px;
     border-radius: 10px;

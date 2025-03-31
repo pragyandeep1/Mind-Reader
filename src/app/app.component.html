@@ -1,0 +1,9 @@
+<div class="main">
+  <div class="container">
+      <h1>Mind Reader</h1>
+      <input type="text" placeholder="Choose a input between 1 and 10" (input)="chosenNumber($event)">
+      <h1>{{chosen}}</h1>
+      <p>{{result}}</p>
+      <button (click)="restart()">Restart</button>
+  </div>
+</div>
